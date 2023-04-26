@@ -292,6 +292,8 @@ transform: scale(1.02);    flex: 1 1 30rem;
 }
 
 .portfolio-box img {
+    /*width: 23vw;
+    height: 28vw;*/
     width: 100%;
     transition: .5s ease;
 }
@@ -345,7 +347,6 @@ transform: scale(1.02);    flex: 1 1 30rem;
     color: var(--second-bg-color);
 }
 
-
 /* FIN PORTFOLIO*/
 
 
@@ -392,3 +393,37 @@ transform: scale(1.02);    flex: 1 1 30rem;
     cursor: pointer;
 }
 /* FIN CONTACTO */
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer-iconTip a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .8rem;
+    transition: .5s ease;
+}
+
+.footer-iconTip a:hover {
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer-iconTip a i {
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
+}
+/* FIN FOOTER */
