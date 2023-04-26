@@ -104,12 +104,14 @@ span {
 }
 
 .home-img img {
-
+    width: 50%;
+    height: 50%;
+    /*
     width: 18vw;
-    height: 25vw;
-    margin-left: -10px;
-    box-shadow: 0 0 3rem var(--main-color);
-    filter: saturate(0.5)
+    height: 25vw;*/
+    margin-left: 100px;
+    /*box-shadow: 0 0 3rem var(--main-color);*/
+    /*filter: saturate(0.5)*/
     
     /*
     clip-path: polygon(50% 0%, 91% 26%, 91% 74%, 50% 100%, 9% 74%, 9% 26%);
