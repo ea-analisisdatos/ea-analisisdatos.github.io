@@ -89,15 +89,25 @@ section {
     align-items: center;
 }
 
-.home .home-img {
+.home .home-content {
     padding: 20px;
     /*background-color: #54315d;*/
-    max-width: 350px;
+    max-width: 200px;
     margin: auto;
     text-align: center;
     border-radius: 50%;
     object-fit: cover;
 }
+
+.home-content img {
+    margin-top: 40px;
+    border: 10px solid #54315d;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+
 
 .home-content h3 {
     font-size: 3.2rem;
